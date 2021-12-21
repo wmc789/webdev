@@ -1,3 +1,35 @@
 body {
     background-color: bisque;
+
+    color: blue;
+
+    font-family: Verdana, Geneva, Tahoma;
+    font-weight: normal;
+    font-size: 18px;
+    /*dasselbe*/
+    font: normal 18px Verdana;
+
+    line-height: 1.7em;
+}
+/*h1{
+    font: bold;
+}*/
+.box-1{
+    background-color: brown;
+    color: cyan;
+    /*margin: 5px 10px 5px 10px;*/
+    border-left:5px blue solid;
+    border-right:5px blue solid;
+    border-top:5px blue solid;
+    border-bottom:5px blue solid;
+
+    border: 5px blue solid; /*zusammengefasst wie oben*/
+}
+.box-2{
+    background-color: darkblue;
+    color: gold;
+}
+.container{
+    width:65%;
+    margin:auto;
 }
