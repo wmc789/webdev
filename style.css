@@ -1,5 +1,10 @@
+/*{
+    margin: 0;
+    padding: 0;  /*alles auf Null
+}*/
+
 body {
-    background-color: bisque;
+    background-color: rgb(216, 216, 216);
 
     color: blue;
 
@@ -15,19 +20,24 @@ body {
     font: bold;
 }*/
 .box-1{
-    background-color: brown;
-    color: cyan;
-    /*margin: 5px 10px 5px 10px;*/
+    background-color: rgb(121, 116, 116);
+    color: rgb(0, 0, 0);
+    /*margin: 5px 10px 5px 10px;
     border-left:5px blue solid;
     border-right:5px blue solid;
     border-top:5px blue solid;
-    border-bottom:5px blue solid;
+    border-bottom:5px blue solid;*/
 
-    border: 5px blue solid; /*zusammengefasst wie oben*/
+    border: 5px rgb(187, 187, 243) solid; /*zusammengefasst wie oben*/
+    padding: 5px;
+    border-radius: 20px;
 }
 .box-2{
-    background-color: darkblue;
-    color: gold;
+    background-color: rgb(88, 88, 88);
+    color: rgb(230, 230, 193);
+    border: 5px rgb(66, 66, 66) solid;
+    padding: 5px;
+    border-radius: 10px;
 }
 .container{
     width:65%;
