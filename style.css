@@ -6,9 +6,9 @@
 body {
     background-color: rgb(216, 216, 216);
 
-    color: blue;
+    
 
-    font-family: Verdana;
+    /*font-family: Verdana;
     font-weight: normal;
     font-size: 18px;
     /*dasselbe*/
@@ -35,8 +35,8 @@ body {
 .Box-2{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: rgb(88, 88, 88);
-    color: rgb(230, 230, 193);
-    border: 5px rgb(66, 66, 66) solid;
+    color: rgb(226, 226, 184);
+    border: 5px rgb(37, 37, 37) solid;
     padding: 5px;
     border-radius: 10px;
 }
@@ -55,4 +55,8 @@ body {
 }
 .picAlign{
     text-align: center;
+}
+a{
+    color: seashell;
+    text-decoration: none;
 }
