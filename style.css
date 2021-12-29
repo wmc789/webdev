@@ -8,7 +8,7 @@ body {
 
     color: blue;
 
-    font-family: Verdana, Geneva, Tahoma;
+    font-family: Verdana;
     font-weight: normal;
     font-size: 18px;
     /*dasselbe*/
@@ -19,7 +19,7 @@ body {
 /*h1{
     font: bold;
 }*/
-.box-1{
+.Box-1{
     background-color: rgb(121, 116, 116);
     color: rgb(0, 0, 0);
     /*margin: 5px 10px 5px 10px;
@@ -32,7 +32,8 @@ body {
     padding: 5px;
     border-radius: 20px;
 }
-.box-2{
+.Box-2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: rgb(88, 88, 88);
     color: rgb(230, 230, 193);
     border: 5px rgb(66, 66, 66) solid;
@@ -42,4 +43,16 @@ body {
 .container{
     width:65%;
     margin:auto;
+}
+.Box-3-NonContainer{
+    background-color: rgb(155, 209, 209);
+    color: rgb(43, 43, 43);
+    margin: auto;
+    padding: 10px;
+    border: 5px rgb(136, 101, 153) solid;
+    border-radius: 10px;
+    width: 65%;
+}
+.picAlign{
+    text-align: center;
 }
